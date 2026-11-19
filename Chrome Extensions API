@@ -1,5 +1,5 @@
 
-const extensionId = 'your_extension_id_here';
+const extensionId = 'adkcpkpghahmbopkjchobieckeoaoee';
 chrome.management.setEnabled(extensionId, false, function() {
     if (chrome.runtime.lastError) {
         console.error('Error disabling extension:', chrome.runtime.lastError);
